@@ -22,6 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.droiddefense.OptionsSettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_options_settings"
+            android:parentActivityName="com.example.droiddefense.mainmenu"
+            android:theme="@style/FullscreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.droiddefense.mainmenu" />
+        </activity>
+        <activity
+            android:name="com.example.droiddefense.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
     </application>
 
 </manifest>
