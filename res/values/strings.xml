@@ -13,6 +13,6 @@
     <string name="background_text">DROID\nDEFENSE</string>
     <string name="title_activity_options_settings">GAME OPTIONS</string>
     <string name="title_activity_spinner">SpinnerActivity</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="difficulties">Please select a difficulty:</string>
 
 </resources>
